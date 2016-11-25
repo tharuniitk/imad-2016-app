@@ -13,8 +13,8 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/ui/13104196.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', '13104196.png'));
+app.get('/ui/Image0490.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Image0490.jpg'));
 });
 
 
