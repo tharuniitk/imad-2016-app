@@ -311,7 +311,7 @@ span.comment, span.comment > *, span.string, span.string > * {
     margin-top: -0.7em;
 }
 
-div#toptitle h1, #layout-content div#toptitle h1 {
+#toptitle h1, #layout-content #toptitle h1 {
     margin-bottom: 0.0em;
     padding-bottom: 0.1em;
     padding-top: 0;
@@ -319,14 +319,14 @@ div#toptitle h1, #layout-content div#toptitle h1 {
     border-bottom: none;
 }
 
-img.eq {
+.eq {
     padding: 0;
     padding-left: 0.1em;
     padding-right: 0.1em;
     margin: 0;
 }
 
-img.eqwl {
+.eqwl {
     padding-left: 2em;
     padding-top: 0.6em;
     padding-bottom: 0.2em;
@@ -350,7 +350,7 @@ table + table {
     margin-top: 1em;
 }
 
-tr.heading {
+.heading {
     font-weight: bold;
     border-bottom: 2px solid black;
 }
